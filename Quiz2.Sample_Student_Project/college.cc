@@ -1,3 +1,7 @@
+/// \file college.cc
+/// \brief Implementation of college class.
+/// \author Mattew Aberegg
+
 //********************
 //Matthew Aberegg
 //Project 3

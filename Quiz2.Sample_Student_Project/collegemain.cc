@@ -1,3 +1,7 @@
+/// \file collegemain.cc
+/// \brief The main program which provides a menu to manage the college class.
+/// \author John Dolan
+
 /******************************************************
 	This is the main for Project 3, which asks you to 
     build a container that holds a list of college courses.

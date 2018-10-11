@@ -1,0 +1,22 @@
+\hypertarget{college_8cc}{}\section{college.\+cc File Reference}
+\label{college_8cc}\index{college.\+cc@{college.\+cc}}
+
+
+Implementation of college class.  
+
+
+{\ttfamily \#include \char`\"{}college.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for college.\+cc\+:
+% FIG 0
+
+
+\subsection{Detailed Description}
+Implementation of college class. 
+
+\begin{DoxyAuthor}{Author}
+Mattew Aberegg 
+\end{DoxyAuthor}

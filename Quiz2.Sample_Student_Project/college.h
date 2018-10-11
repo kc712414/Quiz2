@@ -1,3 +1,10 @@
+/// \file college.h
+
+/// \brief A class that contains a collection of courses.
+
+/// \author Matthew Aberegg
+ 
+
 //********************
 //Matthew Aberegg
 //Project 3

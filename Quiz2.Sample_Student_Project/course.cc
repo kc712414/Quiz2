@@ -1,3 +1,7 @@
+/// \file course.cc
+/// \brief This is the implementation of the course class
+/// \author John Dolan
+
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.
@@ -15,7 +19,7 @@ course::course(){
 }
 
 void course::input(std::istream& ins){
-    if(ins == cin){
+    if(&ins == &cin){
 	cout<<"Course Number: ";
 	if(ins.peek() == '\n') ins.ignore();
     	getline(ins, course_number);
@@ -40,7 +44,7 @@ void course::input(std::istream& ins){
 }
 
 void course::output(std::ostream& outs)const{
-    if(outs == cout){
+    if(&outs == &cout){
 	outs<<"Course Number:"<<course_number<<endl;
 	outs<<"Grade received:"<<grade<<endl;
 	outs<<"Credit hours:"<<setprecision(2)<<hours<<endl;
